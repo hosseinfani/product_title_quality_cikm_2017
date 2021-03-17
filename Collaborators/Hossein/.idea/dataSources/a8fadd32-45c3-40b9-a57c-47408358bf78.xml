@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="CIKM_AnalytiCup_2017@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="CIKM_AnalytiCup_2017">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="CikmTwitterDataSet"/>
+    <schema id="4" parent="1" name="Cnetzeinab"/>
+    <schema id="5" parent="1" name="DataIncubator"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="pod_web"/>
+    <schema id="10" parent="1" name="SearchTweets"/>
+    <schema id="11" parent="1" name="Sentiment"/>
+    <schema id="12" parent="1" name="sys"/>
+    <schema id="13" parent="1" name="test"/>
+    <schema id="14" parent="1" name="Twitter"/>
+    <schema id="15" parent="1" name="Twitter4Squer"/>
+    <schema id="16" parent="1" name="Twitter_new"/>
+    <schema id="17" parent="1" name="wordpress"/>
+    <schema id="18" parent="1" name="WordsDisambiguation"/>
+    <schema id="19" parent="1" name="WordsDisambiguation_b4"/>
+    <schema id="20" parent="1" name="WordsDisambiguation_b6"/>
+    <table id="21" parent="2" name="Categories"/>
+    <table id="22" parent="2" name="Countries"/>
+    <table id="23" parent="2" name="DelivaryTypes"/>
+    <table id="24" parent="2" name="Products"/>
+    <column id="25" parent="21" name="Id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="21" name="Title">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="21" name="Parent">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="28" parent="21" name="GrandParent">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="29" parent="21" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="30" parent="21" name="PRIMARY">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="31" parent="21" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <UnderlyingIndexName>Title_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="32" parent="22" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="22" name="Title">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="34" parent="22" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="22" name="PRIMARY">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="36" parent="22" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <UnderlyingIndexName>Title_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="37" parent="23" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="23" name="Title">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="39" parent="23" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="23" name="PRIMARY">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="41" parent="23" name="Title_UNIQUE">
+      <ColNames>Title</ColNames>
+      <UnderlyingIndexName>Title_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="42" parent="24" name="Id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="43" parent="24" name="SkuId">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="24" name="Title">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="24" name="Description">
+      <Position>4</Position>
+      <DataType>mediumtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="24" name="Country">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="24" name="Category">
+      <Position>6</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="24" name="SubCategory">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="24" name="SubSubCategory">
+      <Position>8</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="24" name="Price">
+      <Position>9</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="24" name="DelivaryType">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="24" name="IsClear">
+      <Position>11</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="24" name="IsConcise">
+      <Position>12</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="54" parent="24" name="FK_Products_Category_2_Categories_Id_idx">
+      <ColNames>Category</ColNames>
+    </index>
+    <index id="55" parent="24" name="FK_Products_Country_2_Countries_Id_idx">
+      <ColNames>Country</ColNames>
+    </index>
+    <index id="56" parent="24" name="FK_Products_DelivaryType_2_DelivaryTypes_Id">
+      <ColNames>DelivaryType</ColNames>
+    </index>
+    <index id="57" parent="24" name="FK_Products_SubCategory_2_Categories_Id_idx">
+      <ColNames>SubCategory</ColNames>
+    </index>
+    <index id="58" parent="24" name="FK_Products_SubSubCategory_2_Categories_Id_idx">
+      <ColNames>SubSubCategory</ColNames>
+    </index>
+    <index id="59" parent="24" name="SkuId_UNIQUE">
+      <ColNames>SkuId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="24" name="PRIMARY">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="61" parent="24" name="SkuId_UNIQUE">
+      <ColNames>SkuId</ColNames>
+      <UnderlyingIndexName>SkuId_UNIQUE</UnderlyingIndexName>
+    </key>
+    <foreign-key id="62" parent="24" name="FK_Products_Country_2_Countries_Id">
+      <ColNames>Country</ColNames>
+      <RefSchemaName>CIKM_AnalytiCup_2017</RefSchemaName>
+      <RefTableName>Countries</RefTableName>
+      <RefColNames>Id</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="63" parent="24" name="FK_Products_Category_2_Categories_Id_idx">
+      <ColNames>Category</ColNames>
+      <RefSchemaName>CIKM_AnalytiCup_2017</RefSchemaName>
+      <RefTableName>Categories</RefTableName>
+      <RefColNames>Id</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="64" parent="24" name="FK_Products_SubCategory_2_Categories_Id_idx">
+      <ColNames>SubCategory</ColNames>
+      <RefSchemaName>CIKM_AnalytiCup_2017</RefSchemaName>
+      <RefTableName>Categories</RefTableName>
+      <RefColNames>Id</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="65" parent="24" name="FK_Products_SubSubCategory_2_Categories_Id_idx">
+      <ColNames>SubSubCategory</ColNames>
+      <RefSchemaName>CIKM_AnalytiCup_2017</RefSchemaName>
+      <RefTableName>Categories</RefTableName>
+      <RefColNames>Id</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <foreign-key id="66" parent="24" name="FK_Products_DelivaryType_2_DelivaryTypes_Id">
+      <ColNames>DelivaryType</ColNames>
+      <RefSchemaName>CIKM_AnalytiCup_2017</RefSchemaName>
+      <RefTableName>DelivaryTypes</RefTableName>
+      <RefColNames>Id</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

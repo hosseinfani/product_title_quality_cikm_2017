@@ -1,0 +1,84 @@
+feature set all-----------------------------------------------------------------------
+LogisticRegression_conciseness ...
+LogisticRegression[10-Fold: (avg=0.351656, std=0.016428)]
+LogisticRegression[0-Fold: (avg=0.299933, std=0.000000)]
+all_LogisticRegression_conciseness_validation.predict updated!
+
+RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold: (avg=0.413267, std=0.001594)]
+RandomForestClassifier[0-Fold: (avg=0.404618, std=0.000000)]
+all_RandomForestClassifier_conciseness_validation.predict updated!
+
+XGBClassifier_conciseness ...
+XGBClassifier[10-Fold: (avg=0.351652, std=0.005531)]
+XGBClassifier[0-Fold: (avg=0.013249, std=0.000000)]
+all_XGBClassifier_conciseness_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold Concise: (avg=0.360718, std=0.003311)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.132576, std=0.000000)]
+MultiOutput_RandomForestClassifier_conciseness_validation.predict updated!
+
+feature set all ngram -----------------------------------------------------------------
+LogisticRegression_conciseness ...
+LogisticRegression[10-Fold: (avg=0.360141, std=0.017187)]
+LogisticRegression[0-Fold: (avg=0.220293, std=0.000000)]
+all_LogisticRegression_conciseness_validation.predict updated!
+
+RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold: (avg=0.423454, std=0.001379)]
+RandomForestClassifier[0-Fold: (avg=0.415063, std=0.000000)]
+all_RandomForestClassifier_conciseness_validation.predict updated!
+
+XGBClassifier_conciseness ...
+XGBClassifier[10-Fold: (avg=0.348260, std=0.004130)]
+XGBClassifier[0-Fold: (avg=0.004410, std=0.000000)]
+all_XGBClassifier_conciseness_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold Concise: (avg=0.368328, std=0.003476)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.135243, std=0.000000)]
+MultiOutput_RandomForestClassifier_conciseness_validation.predict updated!
+
+feature set all_reduced(lsi, pca, d2v, w2v_avg, w2v_sum) ----------------------------------------------------------
+LogisticRegression_conciseness ...
+LogisticRegression[10-Fold: (avg=0.366152, std=0.002649)]
+LogisticRegression[0-Fold: (avg=0.365025, std=0.000000)]
+all_reduced_LogisticRegression_conciseness_validation.predict updated!
+
+RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold: (avg=0.359168, std=0.003282)]
+RandomForestClassifier[0-Fold: (avg=0.229702, std=0.000000)]
+all_reduced_RandomForestClassifier_conciseness_validation.predict updated!
+
+XGBClassifier_conciseness ...
+XGBClassifier[10-Fold: (avg=0.374579, std=0.004394)]
+XGBClassifier[0-Fold: (avg=0.002483, std=0.000000)]
+all_reduced_XGBClassifier_conciseness_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold Concise: (avg=0.358661, std=0.003415)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.131974, std=0.000000)]
+MultiOutput_RandomForestClassifier_conciseness_validation.predict updated!
+
+feature set union_chi_f_mi_all_reduced------------------------------------------------------
+LogisticRegression_conciseness ...
+LogisticRegression[10-Fold: (avg=0.368049, std=0.002734)]
+LogisticRegression[0-Fold: (avg=0.366905, std=0.000000)]
+union_chi_f_mi_all_reduced2_LogisticRegression_conciseness_validation.predict updated!
+
+RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold: (avg=0.360155, std=0.003520)]
+RandomForestClassifier[0-Fold: (avg=0.230846, std=0.000000)]
+union_chi_f_mi_all_reduced2_RandomForestClassifier_conciseness_validation.predict updated!
+
+XGBClassifier_conciseness ...
+XGBClassifier[10-Fold: (avg=0.378780, std=0.005030)]
+XGBClassifier[0-Fold: (avg=0.002987, std=0.000000)]
+union_chi_f_mi_all_reduced2_XGBClassifier_conciseness_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_conciseness ...
+RandomForestClassifier[10-Fold Concise: (avg=0.359821, std=0.003175)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.132422, std=0.000000)]
+MultiOutput_RandomForestClassifier_conciseness_validation.predict updated!
+

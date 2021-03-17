@@ -1,0 +1,127 @@
+pca_to_50_union
+LogisticRegression[10-Fold: (avg=0.216894, std=0.002154)]
+LogisticRegression[0-Fold: (avg=0.215804, std=0.000000)]
+*RandomForestClassifier[10-Fold: (avg=0.213763, std=0.001668)]
+RandomForestClassifier[0-Fold: (avg=0.144825, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.228427, std=0.001477)]
+XGBClassifier[0-Fold: (avg=0.001618, std=0.000000)]
+
+pca_to_100_union
+LogisticRegression[10-Fold: (avg=0.215175, std=0.002273)]
+LogisticRegression[0-Fold: (avg=0.213147, std=0.000000)]
+*RandomForestClassifier[10-Fold: (avg=0.213333, std=0.001735)]
+RandomForestClassifier[0-Fold: (avg=0.147067, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.228209, std=0.001658)]
+XGBClassifier[0-Fold: (avg=0.001422, std=0.000000)]
+
+pca_to_150_union
+LogisticRegression[10-Fold: (avg=0.215608, std=0.002157)]
+LogisticRegression[0-Fold: (avg=0.212646, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.213913, std=0.001731)]
+RandomForestClassifier[0-Fold: (avg=0.149459, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.228703, std=0.001740)]
+XGBClassifier[0-Fold: (avg=0.001300, std=0.000000)]
+
+pca_to_200_union
+LogisticRegression[10-Fold: (avg=0.215855, std=0.002105)]
+LogisticRegression[0-Fold: (avg=0.212131, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214326, std=0.001524)]
+RandomForestClassifier[0-Fold: (avg=0.148951, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229549, std=0.001270)]
+XGBClassifier[0-Fold: (avg=0.001273, std=0.000000)]
+
+lsi_to_5_union
+LogisticRegression[10-Fold: (avg=0.219196, std=0.001532)]
+LogisticRegression[0-Fold: (avg=0.218907, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214434, std=0.002575)]
+RandomForestClassifier[0-Fold: (avg=0.144214, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.231160, std=0.003368)]
+XGBClassifier[0-Fold: (avg=0.005440, std=0.000000)]
+
+lsi_to_10_union
+LogisticRegression[10-Fold: (avg=0.217489, std=0.001953)]
+LogisticRegression[0-Fold: (avg=0.217026, std=0.000000)]
+*RandomForestClassifier[10-Fold: (avg=0.213870, std=0.002309)]
+RandomForestClassifier[0-Fold: (avg=0.140191, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229297, std=0.002520)]
+XGBClassifier[0-Fold: (avg=0.003209, std=0.000000)]
+
+lsi_to_15_union
+LogisticRegression[10-Fold: (avg=0.217558, std=0.001927)]
+LogisticRegression[0-Fold: (avg=0.216959, std=0.000000)]
+*RandomForestClassifier[10-Fold: (avg=0.213975, std=0.002137)]
+RandomForestClassifier[0-Fold: (avg=0.140470, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229527, std=0.002316)]
+XGBClassifier[0-Fold: (avg=0.002718, std=0.000000)]
+
+lsi_to_20_union
+LogisticRegression[10-Fold: (avg=0.217320, std=0.001797)]
+LogisticRegression[0-Fold: (avg=0.216629, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214061, std=0.001995)]
+RandomForestClassifier[0-Fold: (avg=0.139342, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229487, std=0.001674)]
+XGBClassifier[0-Fold: (avg=0.002567, std=0.000000)]
+
+lsi_to_50_union
+LogisticRegression[10-Fold: (avg=0.219201, std=0.001536)]
+LogisticRegression[0-Fold: (avg=0.218907, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214434, std=0.002575)]
+RandomForestClassifier[0-Fold: (avg=0.144214, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.230990, std=0.003682)]
+XGBClassifier[0-Fold: (avg=0.005531, std=0.000000)]
+
+lsi_to_100_union
+LogisticRegression[10-Fold: (avg=0.219005, std=0.001559)]
+LogisticRegression[0-Fold: (avg=0.218718, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214958, std=0.002289)]
+RandomForestClassifier[0-Fold: (avg=0.143649, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.232762, std=0.003180)]
+XGBClassifier[0-Fold: (avg=0.006730, std=0.000000)]
+
+lsi_to_150_union
+LogisticRegression[10-Fold: (avg=0.219044, std=0.001547)]
+LogisticRegression[0-Fold: (avg=0.218669, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.215004, std=0.002242)]
+RandomForestClassifier[0-Fold: (avg=0.143724, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.231625, std=0.003129)]
+XGBClassifier[0-Fold: (avg=0.006562, std=0.000000)]
+
+lsi_to_200_union
+LogisticRegression[10-Fold: (avg=0.215703, std=0.002077)]
+LogisticRegression[0-Fold: (avg=0.211970, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.214171, std=0.001546)]
+RandomForestClassifier[0-Fold: (avg=0.148491, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229716, std=0.001705)]
+XGBClassifier[0-Fold: (avg=0.001270, std=0.000000)]
+
+d2v_to_50_union
+LogisticRegression[10-Fold: (avg=0.218941, std=0.001808)]
+LogisticRegression[0-Fold: (avg=0.218126, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.215975, std=0.001712)]
+RandomForestClassifier[0-Fold: (avg=0.132930, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.228990, std=0.001788)]
+XGBClassifier[0-Fold: (avg=0.001876, std=0.000000)]
+
+d2v_to_100_union
+LogisticRegression[10-Fold: (avg=0.219284, std=0.001840)]
+LogisticRegression[0-Fold: (avg=0.217698, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.216838, std=0.002042)]
+RandomForestClassifier[0-Fold: (avg=0.143447, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.228298, std=0.002086)]
+XGBClassifier[0-Fold: (avg=0.001407, std=0.000000)]
+
+d2v_to_150_union
+LogisticRegression[10-Fold: (avg=0.219534, std=0.001781)]
+LogisticRegression[0-Fold: (avg=0.217206, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.217374, std=0.001783)]
+RandomForestClassifier[0-Fold: (avg=0.148506, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229434, std=0.001217)]
+XGBClassifier[0-Fold: (avg=0.001284, std=0.000000)]
+
+d2v_to_200_union
+LogisticRegression[10-Fold: (avg=0.219902, std=0.001983)]
+LogisticRegression[0-Fold: (avg=0.216866, std=0.000000)]
+RandomForestClassifier[10-Fold: (avg=0.217488, std=0.001907)]
+RandomForestClassifier[0-Fold: (avg=0.154253, std=0.000000)]
+XGBClassifier[10-Fold: (avg=0.229815, std=0.001416)]
+XGBClassifier[0-Fold: (avg=0.001193, std=0.000000)]

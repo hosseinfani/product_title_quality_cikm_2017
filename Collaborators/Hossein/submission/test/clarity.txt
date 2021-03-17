@@ -1,0 +1,84 @@
+feature set all--------------------------------------------------------------
+LogisticRegression_clarity ...
+LogisticRegression[10-Fold: (avg=0.221612, std=0.005292)]
+LogisticRegression[0-Fold: (avg=0.168622, std=0.000000)]
+all_LogisticRegression_clarity_validation.predict updated!
+
+RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold: (avg=0.223419, std=0.000584)]
+RandomForestClassifier[0-Fold: (avg=0.214406, std=0.000000)]
+all_RandomForestClassifier_clarity_validation.predict updated!
+
+XGBClassifier_clarity ...
+XGBClassifier[10-Fold: (avg=0.229286, std=0.002137)]
+XGBClassifier[0-Fold: (avg=0.002522, std=0.000000)]
+all_XGBClassifier_clarity_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold Clear: (avg=0.216638, std=0.000772)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.079634, std=0.000000)]
+MultiOutput_RandomForestClassifier_clarity_validation.predict updated!
+
+feature set all ngram----------------------------------------------------------
+LogisticRegression_clarity ...
+LogisticRegression[10-Fold: (avg=0.222052, std=0.008414)]
+LogisticRegression[0-Fold: (avg=0.142635, std=0.000000)]
+all_LogisticRegression_clarity_validation.predict updated!
+
+RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold: (avg=0.224564, std=0.000546)]
+RandomForestClassifier[0-Fold: (avg=0.215678, std=0.000000)]
+all_RandomForestClassifier_clarity_validation.predict updated!
+
+XGBClassifier_clarity ...
+XGBClassifier[10-Fold: (avg=0.229499, std=0.002017)]
+XGBClassifier[0-Fold: (avg=0.001925, std=0.000000)]
+all_XGBClassifier_clarity_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold Clear: (avg=0.218627, std=0.000803)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.080407, std=0.000000)]
+MultiOutput_RandomForestClassifier_clarity_validation.predict updated!
+
+feature set all_reduced(lsi, pca, d2v, w2v_avg, w2v_sum) ----------------------------------------------------------
+
+LogisticRegression_clarity ...
+LogisticRegression[10-Fold: (avg=0.216228, std=0.002264)]
+LogisticRegression[0-Fold: (avg=0.214367, std=0.000000)]
+all_reduced_LogisticRegression_clarity_validation.predict updated!
+
+RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold: (avg=0.213887, std=0.002015)]
+RandomForestClassifier[0-Fold: (avg=0.141303, std=0.000000)]
+all_reduced_RandomForestClassifier_clarity_validation.predict updated!
+
+XGBClassifier_clarity ...
+XGBClassifier[10-Fold: (avg=0.227223, std=0.001435)]
+XGBClassifier[0-Fold: (avg=0.001681, std=0.000000)]
+all_reduced_XGBClassifier_clarity_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold Clear: (avg=0.214138, std=0.001656)]
+MultiOutput_RandomForestClassifier_clarity_validation.predict updated!
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.078836, std=0.000000)]
+
+feature set union_chi_f_mi_all_reduced-------------------------------------------------------------
+LogisticRegression_clarity ...
+LogisticRegression[10-Fold: (avg=0.216412, std=0.002399)]
+LogisticRegression[0-Fold: (avg=0.215430, std=0.000000)]
+union_chi_f_mi_all_reduced_LogisticRegression_clarity_validation.predict updated!
+
+RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold: (avg=0.213683, std=0.002205)]
+RandomForestClassifier[0-Fold: (avg=0.139809, std=0.000000)]
+union_chi_f_mi_all_reduced_RandomForestClassifier_clarity_validation.predict updated!
+
+XGBClassifier_clarity ...
+XGBClassifier[10-Fold: (avg=0.226732, std=0.001798)]
+XGBClassifier[0-Fold: (avg=0.001797, std=0.000000)]
+union_chi_f_mi_all_reduced_XGBClassifier_clarity_validation.predict updated!
+
+MultiOutput_RandomForestClassifier_clarity ...
+RandomForestClassifier[10-Fold Clear: (avg=0.213904, std=0.001711)]
+MultiOutput_RandomForestClassifier[0-Fold: (avg=0.078667, std=0.000000)]
+MultiOutput_RandomForestClassifier_clarity_validation.predict updated!
