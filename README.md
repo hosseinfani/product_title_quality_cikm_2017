@@ -1,3 +1,4 @@
+
 <p align="left">
     <img src="./Logo.jpg", width="50", alt="CIKM AnalytiCup 2017: Logo">Winning approach for the Lazada Product Title Quality Challenge for the CIKM Cup 2017 where the data set was annotated as conciseness and clarity. 
 As sellers could freely enter anything for title and description, they might contain typos or misspelling words. Moreover, there were many annotators labelling the data so there must be disagreement on the true label of an SKU. 
@@ -10,6 +11,13 @@ This makes the problem difficult to solve if one is solely using traditional nat
 <p align="center">
     <img src="./Poster.jpg", width="600", alt="Bagging Model for Product Title Quality with Noise: Poster">
 </p>
+
+<table>
+  <tr>
+      <td><img src="./2ndPrize_1.jpg", width="500"></td>
+      <td><img src="./2ndPrize_2.jpg", width="500"</td>
+  </tr>
+</table>
 
 ## License
 ©2021. This work is licensed under a [CC BY-NC-SA 4.0](LICENSE.txt) license. 
