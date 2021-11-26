@@ -15,7 +15,7 @@ This makes the problem difficult to solve if one is solely using traditional nat
 <table>
   <tr>
       <td><img src="./2ndPrize_1.jpg", width="300"></td>
-      <td><img src="./2ndPrize_1.jpg", width="300"></td>
+      <td><img src="./2ndPrize_2.jpg", width="300"></td>
       <td><img src="./2ndPrize_3.jpg", width="300"</td>
   </tr>
 </table>
